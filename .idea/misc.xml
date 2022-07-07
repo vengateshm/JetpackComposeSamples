@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/VengateshM/AndroidProjects/Declarative/ComposeSamples/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.145" />
+        <entry key="..\:/VengateshM/AndroidProjects/Declarative/ComposeSamples/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1355" />
+        <entry key="..\:/VengateshM/AndroidProjects/JetPackCompose/ComposePractice/app/src/main/res/drawable/app_widget_background.xml" value="0.303125" />
+        <entry key="..\:/VengateshM/AndroidProjects/JetPackCompose/ComposePractice/app/src/main/res/drawable/ic_covid_19.xml" value="0.303125" />
+        <entry key="..\:/VengateshM/AndroidProjects/JetPackCompose/ComposePractice/app/src/main/res/drawable/ic_covid_19_33.xml" value="0.303125" />
+        <entry key="..\:/VengateshM/AndroidProjects/JetPackCompose/ComposePractice/app/src/main/res/drawable/ic_referesh.xml" value="0.303125" />
+        <entry key="..\:/VengateshM/AndroidProjects/JetPackCompose/ComposePractice/app/src/main/res/drawable/ic_refresh.xml" value="0.303125" />
+        <entry key="..\:/VengateshM/AndroidProjects/JetPackCompose/ComposePractice/app/src/main/res/drawable/summary_widget_bg.xml" value="0.303125" />
+        <entry key="..\:/VengateshM/AndroidProjects/JetPackCompose/ComposePractice/app/src/main/res/layout/widget_first_glance_preview.xml" value="0.27395833333333336" />
+        <entry key="..\:/VengateshM/AndroidProjects/JetPackCompose/ComposePractice/app/src/main/res/layout/widget_loading.xml" value="0.27395833333333336" />
+        <entry key="..\:/VengateshM/AndroidProjects/JetPackCompose/ComposePractice/app/src/main/res/xml/todo_list_glance_widget_info.xml" value="0.27395833333333336" />
+        <entry key="..\:/VengateshM/Projects/Android/Declarative/ComposeSamples/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1125" />
+        <entry key="..\:/VengateshM/Projects/Android/Declarative/ComposeSamples/app/src/main/res/drawable/ic_bubble.xml" value="0.218" />
+        <entry key="..\:/VengateshM/Projects/Android/Declarative/ComposeSamples/app/src/main/res/drawable/ic_headphone.xml" value="0.218" />
+        <entry key="..\:/VengateshM/Projects/Android/Declarative/ComposeSamples/app/src/main/res/drawable/ic_home.xml" value="0.218" />
+        <entry key="..\:/VengateshM/Projects/Android/Declarative/ComposeSamples/app/src/main/res/drawable/ic_moon.xml" value="0.218" />
+        <entry key="..\:/VengateshM/Projects/Android/Declarative/ComposeSamples/app/src/main/res/drawable/ic_music.xml" value="0.218" />
+        <entry key="..\:/VengateshM/Projects/Android/Declarative/ComposeSamples/app/src/main/res/drawable/ic_play.xml" value="0.218" />
+        <entry key="..\:/VengateshM/Projects/Android/Declarative/ComposeSamples/app/src/main/res/drawable/ic_profile.xml" value="0.218" />
+        <entry key="..\:/VengateshM/Projects/Android/Declarative/ComposeSamples/app/src/main/res/drawable/ic_search.xml" value="0.218" />
+        <entry key="..\:/VengateshM/Projects/Android/Declarative/ComposeSamples/app/src/main/res/drawable/ic_videocam.xml" value="0.218" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
