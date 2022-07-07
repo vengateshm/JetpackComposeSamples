@@ -14,10 +14,8 @@ import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
 import dagger.hilt.android.AndroidEntryPoint
 import dev.vengateshm.compose_samples.calculator.CalculatorScreen
-import dev.vengateshm.compose_samples.calculator.CalculatorViewModel
-import dev.vengateshm.compose_samples.maps_spot_finder.presentation.MapScreen
-import dev.vengateshm.compose_samples.material_3_ui.MyM3Theme
-import dev.vengateshm.compose_samples.material_3_ui.components.ChatMessage
+import dev.vengateshm.compose_samples.material_3_ui.components.Material3Feed
+import dev.vengateshm.compose_samples.material_3_ui.ui.theme.Material3AppTheme
 import dev.vengateshm.compose_samples.ui.theme.ProductSansFontTheme
 
 @AndroidEntryPoint
@@ -27,8 +25,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MyMaterial2Composable()
-//            MyMaterial3Composable()
+//            MyMaterial2Composable()
+            MyMaterial3Composable()
         }
         //launchActivity<MeditationHomeActivity>()
     }
@@ -56,9 +54,17 @@ fun MyMaterial2Composable() {
 
 @Composable
 fun MyMaterial3Composable() {
-    MyM3Theme(isDynamicColor = true) {
-        androidx.compose.material3.Surface(modifier = Modifier.fillMaxSize()) {
-            ChatMessage()
+//    MyM3Theme(isDynamicColor = true) {
+//        androidx.compose.material3.Surface(modifier = Modifier.fillMaxSize()) {
+//            ChatMessage()
+//        }
+//    }
+    Material3AppTheme {
+        androidx.compose.material3.Surface(
+            modifier = Modifier.fillMaxSize(),
+            color = androidx.compose.material3.MaterialTheme.colorScheme.background
+        ) {
+            Material3Feed()
         }
     }
 }
