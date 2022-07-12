@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposePractice">
         <activity
+            android:name=".coroutines_cancellation.CoroutinesCancellationActivity"
+            android:exported="false" />
+        <activity
             android:name=".meditation_ui.MeditationHomeActivity"
             android:exported="false" />
         <!--

@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
 import dagger.hilt.android.AndroidEntryPoint
 import dev.vengateshm.compose_samples.calculator.CalculatorScreen
+import dev.vengateshm.compose_samples.coroutines_cancellation.CoroutinesCancellationActivity
 import dev.vengateshm.compose_samples.material_3_ui.components.Material3Feed
 import dev.vengateshm.compose_samples.material_3_ui.ui.theme.Material3AppTheme
 import dev.vengateshm.compose_samples.ui.theme.ProductSansFontTheme
@@ -26,9 +27,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
 //            MyMaterial2Composable()
-            MyMaterial3Composable()
+//            MyMaterial3Composable()
         }
         //launchActivity<MeditationHomeActivity>()
+        launchActivity<CoroutinesCancellationActivity>()
     }
 }
 
