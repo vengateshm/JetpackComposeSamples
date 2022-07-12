@@ -12,6 +12,7 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import dagger.hilt.android.AndroidEntryPoint
+import dev.vengateshm.compose_samples.device_sensors.SensorData
 import dev.vengateshm.compose_samples.material_3_ui.components.Material3Feed
 import dev.vengateshm.compose_samples.material_3_ui.ui.theme.Material3AppTheme
 import dev.vengateshm.compose_samples.parallax_scroll_effect.ParallaxComponent
@@ -48,7 +49,8 @@ fun MyMaterial2Composable() {
 //            MotionLayoutSample()
 //            MapScreen()
 //            CalculatorScreen(viewModel = viewModel())
-            ParallaxComponent()
+//            ParallaxComponent()
+            SensorData()
         }
     }
 }
