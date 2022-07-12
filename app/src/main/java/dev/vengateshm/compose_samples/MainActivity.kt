@@ -11,12 +11,10 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.lifecycle.viewmodel.compose.viewModel
 import dagger.hilt.android.AndroidEntryPoint
-import dev.vengateshm.compose_samples.calculator.CalculatorScreen
-import dev.vengateshm.compose_samples.coroutines_cancellation.CoroutinesCancellationActivity
 import dev.vengateshm.compose_samples.material_3_ui.components.Material3Feed
 import dev.vengateshm.compose_samples.material_3_ui.ui.theme.Material3AppTheme
+import dev.vengateshm.compose_samples.parallax_scroll_effect.ParallaxComponent
 import dev.vengateshm.compose_samples.ui.theme.ProductSansFontTheme
 
 @AndroidEntryPoint
@@ -26,11 +24,11 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-//            MyMaterial2Composable()
+            MyMaterial2Composable()
 //            MyMaterial3Composable()
         }
         //launchActivity<MeditationHomeActivity>()
-        launchActivity<CoroutinesCancellationActivity>()
+//        launchActivity<CoroutinesCancellationActivity>()
     }
 }
 
@@ -49,7 +47,8 @@ fun MyMaterial2Composable() {
 //            MultipleScreenSizeComposable()
 //            MotionLayoutSample()
 //            MapScreen()
-            CalculatorScreen(viewModel = viewModel())
+//            CalculatorScreen(viewModel = viewModel())
+            ParallaxComponent()
         }
     }
 }
